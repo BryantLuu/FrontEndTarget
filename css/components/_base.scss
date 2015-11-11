@@ -1,0 +1,56 @@
+header, section, footer, aside, nav, article, figure {display: block;}
+*,
+*:before,
+*:after {
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color:#E4E4E4;
+}
+
+h1, h2 {
+  color:#002b5a;
+  margin-bottom: 42px;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size:42px;
+  font-weight: 100;
+  font-style:thin;
+}
+
+h2 {
+  font-size:40px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size:15px;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+  background-color:#F2F2F2;
+}
+
+p {
+  color:#333;
+  font-size:18px;
+  font-weight:100;
+}
+
+input[type="search"] {
+  margin-left:20px;
+  width:220px;
+}
+
+input[type="image"] {
+  background-image:white;
+}

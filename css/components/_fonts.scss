@@ -1,0 +1,12 @@
+$font-glyph : "glyphicons-halflings-regular";
+$font-path : "../fonts/";
+
+@font-face {
+    font-family: "#{$font-glyph}";
+    src:url("#{$font-path}#{$font-glyph}.eot?#iefix") format("embedded-opentype"),
+        url("#{$font-path}#{$font-glyph}.woff2") format("woff2"),
+        url("#{$font-path}#{$font-glyph}.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+

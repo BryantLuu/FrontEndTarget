@@ -1,0 +1,44 @@
+
+.statefinder {
+  margin-top: 28.1px;
+  background-color:#EFEFEF;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+  .subtitle {
+    font-size: 20px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:5px;
+    color: #294C73;
+  }
+}
+
+.text {
+  color: #002b5a;
+  font-size:12px;
+  margin-left:20px;
+  margin-bottom:8px;
+}
+
+.search {
+  background-color:white;
+  margin-left:-3px;
+  height:24px;
+  border:1px solid white;
+}
+
+.fa-search{
+  position: absolute;
+  margin-left:225px;
+  /*margin-right:200px;*/
+  margin-top:5px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+@media (max-width:800px) and (orientation:portrait){
+  .statefinder{
+    width:90%;
+    margin: 10px 5%;
+  }
+}
+
