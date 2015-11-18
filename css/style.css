@@ -514,6 +514,18 @@ input[type="image"] {
 
   .col-12 {
     width: 100%; } }
+.banner {
+  position: relative; }
+
+.social {
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+  right: 0; }
+
+.social li {
+  display: inline; }
+
 .statefinder {
   margin-top: 28.1px;
   background-color: #EFEFEF;
