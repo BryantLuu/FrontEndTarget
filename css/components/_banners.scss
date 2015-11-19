@@ -1,12 +1,14 @@
 .banner {
   position: relative;
+  max-width:1600px;
+  margin: auto;
 }
 
 .social {
   position:absolute;
   display:inline-block;
   bottom:0;
-  right:300px;
+  right:200px;
 
   li{
     display:inline-block;   
@@ -14,6 +16,12 @@
   p {
     display:inline-block;
     color:white;
+  }
+}
+
+@media (max-width:800px) and (orientation:portrait) {
+  .social {
+    display:none;
   }
 }
 
