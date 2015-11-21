@@ -1,85 +1,10 @@
 
-            $(document).ready(function() {
 
-//section 4 -- 'x' button
-                $('.section4').on('click','.details-close', function(){
-                    $('#close').empty();
-                    $('#description').empty();
-                    $('#picture').empty();
-                });
-
-//section 4 -- 1,2,3 hover function
-                $('.section4').on('mouseenter','.one', function(){
-                    $('.one').addClass('transition-n');
-                    $('#one').addClass('transition-w');
-                });
-                $('.section4').on('mouseleave','.one', function(){
-                    $('.one').removeClass('transition-n');
-                    $('#one').removeClass('transition-w');
-                });
-
-                $('.section4').on('mouseenter','#one', function(){
-                    $('.one').addClass('transition-n');
-                    $('#one').addClass('transition-w');
-                });
-                $('.section4').on('mouseleave','#one', function(){
-                    $('.one').removeClass('transition-n');
-                    $('#one').removeClass('transition-w');
-                });
-
-                $('.section4').on('mouseenter','.two', function(){
-                    $('.two').addClass('transition-n');
-                    $('#two').addClass('transition-w');
-                });
-                $('.section4').on('mouseleave','.two', function(){
-                    $('.two').removeClass('transition-n');
-                    $('#two').removeClass('transition-w');
-                });
-
-                $('.section4').on('mouseenter','#two', function(){
-                    $('.two').addClass('transition-n');
-                    $('#two').addClass('transition-w');
-                });
-                $('.section4').on('mouseleave','#two', function(){
-                    $('.two').removeClass('transition-n');
-                    $('#two').removeClass('transition-w');
-                });
-
-                $('.section4').on('mouseenter','.three', function(){
-                    $('.three').addClass('transition-n');
-                    $('#three').addClass('transition-w');
-                });
-                $('.section4').on('mouseleave','.three', function(){
-                    $('.three').removeClass('transition-n');
-                    $('#three').removeClass('transition-w');
-                });
-
-                $('.section4').on('mouseenter','#three', function(){
-                    $('.three').addClass('transition-n');
-                    $('#three').addClass('transition-w');
-                });
-                $('.section4').on('mouseleave','#three', function(){
-                    $('.three').removeClass('transition-n');
-                    $('#three').removeClass('transition-w');
-                });
+$(document).ready(function() {
 
 
-//section 3 -- filter options
-                $('#filterOptions').click(function() {
 
-                    setTimeout(function(){
-                    var ourClass = $('#filterOptions option:selected').attr('class');
 
-                    if(ourClass == 'all') {
-                        $('#holder').children('div.item').show();
-                    }
-                    else {
-                        $('#holder').children('div:not(.' + ourClass + ')').hide();
-                        $('#holder').children('div.' + ourClass).show();
-                    }
-                }, 1500);
-                });
-            });
 
 //section 1 -- choosing states
             var availableStates = [
